@@ -1,0 +1,25 @@
+/* 메인 콘텐츠 영역 가로사이즈와 가운데 정렬 */
+#main_content{width: 1000px; height: 300px; margin: 0 auto; position: relative; }
+
+/* 메인 이미지 */
+#main_img_bar{ height: 300px;  background-color:white; text-align: center;}
+#main_img_bar img{width: 1920px; height: 300px;}
+
+/* 최신 게시글 */
+#latest{ position: absolute; top: 30px; left: 50px;}
+#latest h4{width: 500px; font-size: 16px; padding-bottom: 5px; border-bottom: solid 1px #dddddd;}
+#latest ul{margin-top: 20px;}
+#latest li{padding: 3px;}
+#latest .col2 {position: absolute; left: 250px; }
+#latest .col3 {position: absolute; left: 400px; }
+
+
+/* 포인트 랭킹 */
+#point_rank {position: absolute; top: 30px; left: 590px;}
+#point_rank h4{width: 350px; font-size: 16px; padding-bottom: 5px; border-bottom: solid 1px #dddddd;}
+#point_rank ul{margin-top: 20px;}
+#point_rank li{padding:3px;}
+
+#point_rank .col2 {position: absolute; left: 100px; }
+#point_rank .col3 {position: absolute; left: 200px; }
+#point_rank .col4 {position: absolute; left: 300px; }
